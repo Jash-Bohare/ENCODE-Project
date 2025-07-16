@@ -93,11 +93,11 @@ ENCODE-Token/
 ---
 
 ### Phase 1: Token Development 
-- [ ] Setup Hardhat project structure
-- [ ] Write and test `EncodeToken.sol`
-- [ ] Deploy to Ethereum Sepolia Testnet
-- [ ] Verify on Etherscan
-- [ ] Publish ABI + contract address for frontend
+- [x] Setup Hardhat project structure
+- [x] Write and test `EncodeToken.sol`
+- [x] Deploy to Ethereum Sepolia Testnet
+- [x] Verify on Etherscan
+- [x] Publish ABI + contract address for frontend
 
 ---
 
