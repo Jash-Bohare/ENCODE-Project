@@ -61,7 +61,7 @@ ENCODE-Token/
 
 | Layer | Tool |
 |-------|------|
-| Blockchain | Polygon Mumbai (testnet) |
+| Blockchain | Ethereum (Sepolia testnet) |
 | Token | Solidity + OpenZeppelin ERC-20 |
 | Development | Hardhat + Ethers.js |
 | Storage | IPFS (for NFTs via Pinata or Web3.Storage) |
@@ -95,8 +95,8 @@ ENCODE-Token/
 ### Phase 1: Token Development 
 - [ ] Setup Hardhat project structure
 - [ ] Write and test `EncodeToken.sol`
-- [ ] Deploy to Polygon Mumbai
-- [ ] Verify on Mumbai block explorer
+- [ ] Deploy to Ethereum Sepolia Testnet
+- [ ] Verify on Etherscan
 - [ ] Publish ABI + contract address for frontend
 
 ---
@@ -141,9 +141,9 @@ Token Name: Encode Token
 Symbol: ENCD
 Total Supply: 1,000,000 (1 million)
 Decimals: 18
-Chain: Polygon Mumbai Testnet
-Deployed At: [pending]
-Contract Address: [pending]
+Chain: Ethereum, Sepolia Testnet
+Deployer Address: 0x6437df87F8b6f313e12e45FC88b69C8247224908
+Contract Address: 0x0e1beeddb51cC592Be02Dba3bcE308d36b4d3D2b
 ````
 
 ---
