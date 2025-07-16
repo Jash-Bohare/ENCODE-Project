@@ -31,32 +31,6 @@ To create a **revolutionary on-campus crypto experience** where students:
 
 ---
 
-## Repository Structure
-
-```
-
-ENCODE-Token/
-│
-├── contracts/              # Solidity smart contracts
-│   └── EncodeToken.sol     # ERC-20 token contract
-│
-├── scripts/                # Deployment & interaction scripts
-│   └── deploy.js           # Deploy token to testnet
-│   └── airdrop.js          # Send tokens to wallets
-│
-├── test/                   # Unit tests (Hardhat/Chai)
-│
-├── frontend/               # (Planned) Token dashboard + NFT minting dApp
-│
-├── README.md               # This file
-├── hardhat.config.js       # Hardhat setup
-├── package.json            # Dependencies
-└── .env                    # Private keys, RPC URLs
-
-````
-
----
-
 ## Tech Stack
 
 | Layer | Tool |
