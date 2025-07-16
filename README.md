@@ -76,10 +76,10 @@ To create a **revolutionary on-campus crypto experience** where students:
 ---
 
 ### Phase 2: Airdrop & Distribution
-- [ ] Collect student wallet addresses (via form or site)
-- [ ] Write airdrop script with Ethers.js
-- [ ] Distribute tokens post-events or manually
-- [ ] Setup distribution tracker
+- [x] Collect student wallet addresses (via form or site)
+- [x] Write airdrop script with Ethers.js
+- [x] Distribute tokens post-events or manually
+- [x] Setup distribution tracker
 
 ---
 
