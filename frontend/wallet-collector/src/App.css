@@ -1,0 +1,70 @@
+/* Global Reset + Base Font */
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #0f0f2b, #000);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #fff;
+}
+
+/* Orbitron font ONLY for the heading */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #00ffe7;
+  text-shadow: 0 0 1px #00ffe7;
+  margin-bottom: 40px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  padding: 12px 28px;
+  margin: 10px;
+  background: linear-gradient(135deg, #00ffe7, #0078ff);
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 1px #00ffe7;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0078ff, #00ffe7);
+  box-shadow: 0 0 5px #00ffe7, 0 0 5px #0078ff;
+}
+
+/* Status messages */
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+/* Wallet address glass box */
+.address-box {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 0px 15px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 5px rgba(0, 255, 231, 0.2);
+  width: fit-content;
+  max-width: 90%;
+  word-break: break-all;
+  color: #00ffe7;
+  font-weight: bold;
+}
