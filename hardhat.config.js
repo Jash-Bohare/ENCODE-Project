@@ -1,12 +1,22 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-verify"); // ✅ Required for contract verification
 require("dotenv").config();
+
+const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL;
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY; // ✅ Load Etherscan API key
 
 module.exports = {
   solidity: "0.8.20",
   networks: {
     sepolia: {
-      url: process.env.SEPOLIA_RPC_URL,
-      accounts: [process.env.PRIVATE_KEY]
-    }
-  }
+      url: SEPOLIA_RPC_URL,
+      accounts: [PRIVATE_KEY],
+    },
+  },
+  etherscan: {
+    apiKey: {
+      sepolia: ETHERSCAN_API_KEY, // ✅ For verifying on Sepolia Etherscan
+    },
+  },
 };

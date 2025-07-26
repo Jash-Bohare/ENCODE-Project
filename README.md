@@ -84,7 +84,7 @@ To create a **revolutionary on-campus crypto experience** where students:
 ---
 
 ### Phase 3: NFT Minting dApp
-- [ ] Build NFT contract (ERC-721)
+- [x] Build NFT contract (ERC-721)
 - [ ] Integrate with frontend
 - [ ] Link token burn/use to mint NFTs
 - [ ] Upload NFT media to IPFS
@@ -118,6 +118,14 @@ Decimals: 18
 Chain: Ethereum, Sepolia Testnet
 Deployer Address: 0x6437df87F8b6f313e12e45FC88b69C8247224908
 Contract Address: 0x0e1beeddb51cC592Be02Dba3bcE308d36b4d3D2b
+````
+
+```txt
+NFT Name: Encode Custom NFT 
+Symbol: ECNFT
+Chain: Ethereum, Sepolia Testnet
+Deployer Address: 0x6437df87F8b6f313e12e45FC88b69C8247224908
+Contract Address: 0x585BD798711821956AD38D30511A22c9a5076f74
 ````
 
 ---

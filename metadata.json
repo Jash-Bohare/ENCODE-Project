@@ -1,0 +1,19 @@
+{
+  "name": "ENCODE Genesis NFT",
+  "description": "This NFT is minted by burning ENCD tokens as part of the ENCODE project.",
+  "image": "ipfs://QmYDUtpWg8EAxWAeGDSVYeQ8MHXf9mCXQPkm9VtvRTJQS5",
+  "attributes": [
+    {
+      "trait_type": "Project",
+      "value": "ENCODE"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Burn Required",
+      "value": "Yes"
+    }
+  ]
+}
