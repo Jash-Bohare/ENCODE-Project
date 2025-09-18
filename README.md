@@ -1,4 +1,4 @@
-# ENCODE Token – The Community Token of Encode Club @ PDEU
+# ENCODE Project
 
 > Learn. Build. Earn. – Powering Web3 culture at PDEU.
 
